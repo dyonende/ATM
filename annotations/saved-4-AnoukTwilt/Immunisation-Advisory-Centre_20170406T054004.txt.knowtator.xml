@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Immunisation-Advisory-Centre_20170406T054004.txt">
+    <annotation>
+        <mention id="EHOST_Instance_133" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="296" end="303" />
+        <spannedText>without</spannedText>
+        <creationDate>Wed Jan 06 14:17:22 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_133">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_134" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="1388" end="1391" />
+        <spannedText>NOT</spannedText>
+        <creationDate>Wed Jan 06 14:18:00 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_134">
+        <mentionClass id="NegCue">NOT</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_135" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="2327" end="2330" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:18:32 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_135">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_136" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="6061" end="6064" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:20:45 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_136">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_137" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="6243" end="6246" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:20:53 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_137">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_138" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="6678" end="6681" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:21:15 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_138">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_139" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="7304" end="7307" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:21:37 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_139">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_140" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="7408" end="7411" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:21:45 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_140">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_141" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="7690" end="7692" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 06 14:22:01 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_141">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_142" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="8070" end="8072" />
+        <spannedText>no</spannedText>
+        <creationDate>Wed Jan 06 14:22:23 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_142">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_143" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="8566" end="8569" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:22:40 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_143">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_144" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="9633" end="9636" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:23:13 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_144">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_145" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="9738" end="9741" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 14:23:20 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_145">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_146" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="10309" end="10312" />
+        <spannedText>NOT</spannedText>
+        <creationDate>Wed Jan 06 14:23:43 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_146">
+        <mentionClass id="NegCue">NOT</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_147" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="7924" end="7926" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 07 10:24:08 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_147">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_148" />
+        <annotator id="eHOST_2010">Anouk</annotator>
+        <span start="9825" end="9828" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 10:24:17 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_148">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

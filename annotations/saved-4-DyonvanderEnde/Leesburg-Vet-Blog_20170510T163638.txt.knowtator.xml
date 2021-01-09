@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Leesburg-Vet-Blog_20170510T163638.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="1162" end="1165" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Thu Jan 07 19:25:09 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="1740" end="1743" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:25:16 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_3" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="1982" end="1985" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:25:20 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="3398" end="3401" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:25:54 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_5" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="3125" end="3128" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:26:24 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_5">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_6" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="3354" end="3357" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:29:49 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_6">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_7" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="3452" end="3455" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:29:56 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_7">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_8" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="4187" end="4190" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:30:19 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_8">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_9" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="7026" end="7029" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:31:15 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_9">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_10" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="10075" end="10077" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 07 19:31:41 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_10">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_11" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="10212" end="10215" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:31:55 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_11">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_12" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="10315" end="10318" />
+        <spannedText>non</spannedText>
+        <creationDate>Thu Jan 07 19:32:16 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_12">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_13" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="10369" end="10372" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:32:22 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_13">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_14" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="11278" end="11280" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 07 19:33:23 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_14">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_15" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="12066" end="12068" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 07 19:34:09 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_15">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_16" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="12534" end="12536" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 07 19:35:12 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_16">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_17" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="3791" end="3794" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 08 13:05:37 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_17">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_18" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="7221" end="7224" />
+        <spannedText>not</spannedText>
+        <creationDate>Fri Jan 08 13:06:17 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_18">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_19" />
+        <annotator id="eHOST_2010">Dyon</annotator>
+        <span start="12584" end="12586" />
+        <spannedText>no</spannedText>
+        <creationDate>Fri Jan 08 13:06:38 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_19">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

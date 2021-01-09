@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Leesburg-Vet-Blog_20170510T163638.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1629" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="1162" end="1165" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Wed Jan 06 17:15:48 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1629">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1630" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="1982" end="1985" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:16:23 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1630">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1631" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="3125" end="3128" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:17:27 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1631">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1632" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="3354" end="3357" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:17:41 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1632">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1633" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="3452" end="3455" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:17:46 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1633">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1634" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="3791" end="3794" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:18:01 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1634">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1635" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="4187" end="4190" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 06 17:18:20 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1635">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1636" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="10315" end="10318" />
+        <spannedText>non</spannedText>
+        <creationDate>Wed Jan 06 17:22:02 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1636">
+        <mentionClass id="NegCue">non</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1637" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="10369" end="10372" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:25:57 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1637">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1638" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="12584" end="12586" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 07 19:28:13 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1638">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1639" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="12596" end="12602" />
+        <spannedText>at all</spannedText>
+        <creationDate>Thu Jan 07 19:28:19 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1639">
+        <mentionClass id="NegCue">at all</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1640" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="1740" end="1743" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:29:22 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1640">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1641" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="7026" end="7029" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:29:37 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1641">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1642" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="7221" end="7224" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:29:44 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1642">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1643" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="10212" end="10215" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:30:07 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1643">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1644" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="11278" end="11280" />
+        <spannedText>un</spannedText>
+        <creationDate>Thu Jan 07 19:30:51 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1644">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1645" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="3398" end="3401" />
+        <spannedText>not</spannedText>
+        <creationDate>Thu Jan 07 19:31:07 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1645">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1646" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="12534" end="12536" />
+        <spannedText>no</spannedText>
+        <creationDate>Thu Jan 07 19:31:28 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1646">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1647" />
+        <annotator id="eHOST_2010">Lois</annotator>
+        <span start="10075" end="10078" />
+        <spannedText>unt</spannedText>
+        <creationDate>Thu Jan 07 19:32:59 CET 2021</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1647">
+        <mentionClass id="NegCue">unt</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
