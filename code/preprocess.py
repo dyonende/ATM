@@ -1,5 +1,11 @@
+'''
+Authors: Anouk Twilt, Dyon van der Ende, Lois Rink
+Argument 1: conll file
+'''
 import stanza
+import sys
 
+inputfile = sys.argv[1]
 Heading = True
 
 #negation cues according to NegExpList
@@ -14,23 +20,24 @@ pronouns = {"nothing"}
 prepositions = {"without"}
 verbs = {"fail"}
 
+#loading nlp pipeline
 nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse', tokenize_pretokenized=True)
 
-in_data = list()
-token_list = list()
-with open("SEM-2012-SharedTask-CD-SCO-training-simple.txt") as infile:
+in_data = list()    #input data
+
+#read in file
+with open(inputfile) as infile:
     data = infile.read().split('\n')
     for line in data:
         if len(line) > 0: #skip empty lines
             in_data.append(line.split('\t'))
-            token_list.append(line.split('\t')[3])
-                
+   
 
-sentences = list()
-sentence = list()
-#list of sentences for stanza to process
+#prepare all sentences as list of tokens for Stanza to process   
+sentence = list()   #used for the current sentence
+sentences = list()  #contains all sentences
 for line in in_data:
-    if line[2] == '0':
+    if line[2] == '0':  #first token of sentence
         sentences.append(sentence)
         sentence= list()
         sentence.append(line[3])
@@ -38,10 +45,12 @@ for line in in_data:
         sentence.append(line[3])
   
 sentences.append(sentence)  
-sentences = sentences[1:]
+sentences = sentences[1:]   #first entry is empty because of implementation
         
+#process sentences        
 doc = nlp(sentences)
 
+#extract features from processed data
 xpos_list = list()
 upos_list = list()
 lemma_list = list()
@@ -83,7 +92,7 @@ for i in range(len(in_data)):
     negation_postfix = False
     in_NegExpList = False
     
-    #scan for negation cues    
+    #apply NegExpList    
     if upos_list[i]=="ADV" and lemma_list[i] in adverbs:
         in_NegExpList = True
     elif upos_list[i]=="DET" and lemma_list[i] in determiners:
@@ -111,11 +120,13 @@ for i in range(len(in_data)):
         for suffix in suffix_verb:
             if token.endswith(suffix):
                 negation_postfix = True
-                
+       
+    #strip B and I from label
+    # B-NEG --> NEG
     gold = in_data[i][4]
     if gold != "O":
         gold = "NEG"
     
     #output to terminal in conll format
-    print(token_list[i], lemma_list[i], upos_list[i], xpos_list[i], deprel_list[i], head_list[i], prev_token, prev_pos, next_token, next_pos, negation_prefix, negation_postfix, in_NegExpList, gold, sep='\t')  
+    print(token, lemma_list[i], upos_list[i], xpos_list[i], deprel_list[i], head_list[i], prev_token, prev_pos, next_token, next_pos, negation_prefix, negation_postfix, in_NegExpList, gold, sep='\t')  
      

@@ -1,10 +1,15 @@
-
+'''
+Authors: Anouk Twilt, Dyon van der Ende, Lois Rink
+Argument 1: Pre-processed training data in conll format
+Argument 2: pre-processed test data in conll format
+Argument 3: output file
+'''
 import sklearn
-import csv
 import sys
-
+import csv
 import sklearn_crfsuite
 from sklearn_crfsuite import metrics
+
 
 
 ## based on https://github.com/cltl/ba-text-mining/blob/master/lab_sessions/lab4/Lab4a.4-NERC-CRF-Dutch.ipynb
@@ -123,12 +128,11 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
         
-    trainingfile = "train_preprocessed.conll" # argv[1]
-    outputfile = "crf_out.conll" #argv[3]
-    evaluationfile = "dev_preprocessed.conll"#argv[2]
+    trainingfile = argv[1]
+    evaluationfile = argv[2]
+    outputfile = argv[3]
     
     train_and_run_crf_model(trainingfile, evaluationfile, outputfile)
-    
 
 
 if __name__ == '__main__':

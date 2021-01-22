@@ -1,13 +1,23 @@
+'''
+Authors: Anouk Twilt, Dyon van der Ende, Lois Rink
+Argument 1: pre-processed train file in conll format
+Argument 2: pre-processed test file in conll format
+Argument 3: output file
+
+Based on https://github.com/cltl/ma-ml4nlp-labs/blob/main/code/assignment1/basic_system.ipynb
+'''
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm
+import sys
 
-inputfile = 'train_preprocessed.conll'
-devfile = 'dev_preprocessed.conll'
+inputfile = sys.argv[1]
+devfile = sys.argv[2]
+outfile = sys.argv[3]
 
 def extract_features(inputfile):
     """Function extracts features from inputfile and returns them in a list of dicts"""
-    data = []
-    gold = []
+    data = []   #features
+    gold = []   #gold labels
 
     with open(inputfile, 'r', encoding='utf8') as infile:
         for line in infile:
@@ -81,8 +91,7 @@ def classify_data(model, vec, inputfile, outputfile):
 def main():
     features, gold = extract_features(inputfile)
     model, vec = create_classifier(features, gold, 'SVM')
-    classify_data(model, vec, devfile, 'out.conll')
-
+    classify_data(model, vec, devfile, outfile)
 
 main()
 
