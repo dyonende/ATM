@@ -9,6 +9,7 @@ import collections
 
 
 def file_to_listrows(filepath):
+    """Functions transforms file into a list of lists(rows)"""
     rows = []
     with open(filepath) as infile:
         content= infile.read()
@@ -18,30 +19,31 @@ def file_to_listrows(filepath):
     return rows
 
 def data_stats(filepath):
+    """Function outputs the statistics of the defined file in means of #tokens, UPOS-Labels, XPOS-Labels, DepRel-Labels
+     Previous and Next POS-labels and the labels assigned to the token (O/NEG)"""
     counter = 0
     token_list = []
-    lemma_list = []
     UPOS_list = []
     XPOS_list = []
     DepRel_list = []
-    head_list = []
     PrevPOS_list = []
     NextPOS_list = []
+    label_list = []
     rows = file_to_listrows(filepath)
 
     for row in rows:
         counter += 1
         token_list.append(row[0])
-        lemma_list.append(row[1])
         UPOS_list.append(row[2])
         XPOS_list.append(row[3])
         DepRel_list.append(row[4])
-        head_list.append(row[5])
         PrevPOS_list.append(row[7])
         NextPOS_list.append(row[9])
+        label_list.append(row[-1])
+        
         if counter >= len(rows)-1:  #handle last line that is empty
             break
-            
+    #All the info is printed
     print("-TOKEN-")           
     print(f"There are {len(set(token_list))} different tokens present in this dataset")
     print('\n\n')
@@ -59,6 +61,10 @@ def data_stats(filepath):
     print('\n\n')
     print("-NextPOS-")
     print(collections.Counter(NextPOS_list))
+    print('\n\n')
+    print("-LABELS-")
+    print(collections.Counter(label_list))
+    
     
 
 data_stats(sys.argv[1])
