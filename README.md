@@ -22,5 +22,5 @@ Provides an overview of the metrics and the confusion matrix for the output of a
 - code/data_stats.py
 extracts some basic descriptive statistics of the data set.
 
-- error_analysis.py
+- code/error_analysis.py
 outputs a csv file with statistics on the errors that classifiers made.
