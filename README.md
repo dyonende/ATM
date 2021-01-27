@@ -11,10 +11,16 @@ this file preprocesses a conll file for use with the scripts mentioned below.
 A simple rule-based baseline that works with pre-processed conll files.
 
 - code/svm.py
-A SVM classifier that works with the pre-processed conll files
+A SVM classifier that works with the pre-processed conll files.
 
 - code/crf.py
-A CRF classifier that works with the pre-processed conll files
+A CRF classifier that works with the pre-processed conll files.
 
 - code/evaluate.py
 Provides an overview of the metrics and the confusion matrix for the output of all classifiers at once.
+
+- code/data_stats.py
+extracts some basic descriptive statistics of the data set.
+
+- error_analysis.py
+outputs a csv file with statistics on the errors that classifiers made.
