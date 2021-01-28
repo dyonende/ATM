@@ -9,7 +9,9 @@ import collections
 
 
 def file_to_listrows(filepath):
-    """Functions transforms file into a list of lists(rows)"""
+    """
+    Functions transforms file into a list of lists(rows)
+    """
     rows = []
     with open(filepath) as infile:
         content= infile.read()
@@ -19,8 +21,10 @@ def file_to_listrows(filepath):
     return rows
 
 def data_stats(filepath):
-    """Function outputs the statistics of the defined file in means of #tokens, UPOS-Labels, XPOS-Labels, DepRel-Labels
-     Previous and Next POS-labels and the labels assigned to the token (O/NEG)"""
+    """
+    Function outputs the statistics of the defined file in means of #tokens, UPOS-Labels, XPOS-Labels, DepRel-Labels
+     Previous and Next POS-labels and the labels assigned to the token (O/NEG)
+    """
     counter = 0
     token_list = []
     UPOS_list = []
@@ -66,5 +70,5 @@ def data_stats(filepath):
     print(collections.Counter(label_list))
     
     
-
-data_stats(sys.argv[1])
+if __name__ == "__main__":
+    data_stats(sys.argv[1])

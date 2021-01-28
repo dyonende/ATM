@@ -3,6 +3,10 @@ Authors: Anouk Twilt, Dyon van der Ende, Lois Rink
 Argument 1: Pre-processed training data in conll format
 Argument 2: pre-processed test data in conll format
 Argument 3: output file
+
+This code is based on 
+https://github.com/cltl/ba-text-mining/blob/master/lab_sessions/lab4/Lab4a.4-NERC-CRF-Dutch.ipynb
+Only slight alterations were made to adjust for this specific task.
 '''
 import sklearn
 import sys
@@ -12,11 +16,10 @@ from sklearn_crfsuite import metrics
 
 
 
-## based on https://github.com/cltl/ba-text-mining/blob/master/lab_sessions/lab4/Lab4a.4-NERC-CRF-Dutch.ipynb
-
-
 def token2features(sentence, i):
-
+    '''
+    creates a dictionary with all the features 
+    '''
     token = sentence[i][0]
     lemma = sentence[i][1]
     upos = sentence[i][2]
@@ -53,7 +56,6 @@ def sent2features(sent):
     return [token2features(sent, i) for i in range(len(sent))]
 
 def sent2labels(sent):
-    #if you added features to your input file, make sure to add them here as well.
     return [Label for Token,Lemma,UPOS,XPOS,DepRel,Head,PrevToken,PrevPOS,NextToken,NextPOS,NegPrefix,NegPostfix,NegExpList, Label  in sent]
 
 def sent2tokens(sent):
@@ -61,14 +63,15 @@ def sent2tokens(sent):
     
     
 def extract_sents_from_conll(inputfile):
-    
+    '''
+    read in the data
+    '''
     csvinput = open(inputfile,'r')
     csvreader = csv.reader(csvinput,delimiter='\t')
     sents = []
     current_sent = []
     for row in csvreader:
         current_sent.append(tuple(row))
-        #note that this is a simplification that works well for this particular data, in other situations, you may need to do more advanced preprocessing to identify sentence boundaries
         if row[0] == ".":
             sents.append(current_sent)
             current_sent = []
@@ -78,7 +81,9 @@ def extract_sents_from_conll(inputfile):
 
 
 def train_crf_model(X_train, y_train):
-
+    '''
+    train the CRF model on data
+    '''
     crf = sklearn_crfsuite.CRF(
         algorithm='lbfgs',
         c1=0.1,
@@ -91,7 +96,9 @@ def train_crf_model(X_train, y_train):
     return crf
 
 def create_crf_model(trainingfile):
-
+    '''
+    create the crf model and provide with training data
+    '''
     train_sents = extract_sents_from_conll(trainingfile)
     X_train = [sent2features(s) for s in train_sents]
     y_train = [sent2labels(s) for s in train_sents]
@@ -102,7 +109,9 @@ def create_crf_model(trainingfile):
 
 
 def run_crf_model(crf, evaluationfile):
-
+    '''
+    run the classifier on the test data
+    '''
     test_sents = extract_sents_from_conll(evaluationfile)
     X_test = [sent2features(s) for s in test_sents]
     y_pred = crf.predict(X_test)
@@ -110,7 +119,9 @@ def run_crf_model(crf, evaluationfile):
     return y_pred, X_test
 
 def write_out_evaluation(eval_data, pred_labels, outputfile):
-
+    '''
+    write the predictions to outpufile
+    '''
     outfile = open(outputfile, 'w')
     
     for evalsents, predsents in zip(eval_data, pred_labels):
@@ -118,19 +129,17 @@ def write_out_evaluation(eval_data, pred_labels, outputfile):
             outfile.write(data.get('token') + "\t" + pred + "\n")
 
 def train_and_run_crf_model(trainingfile, evaluationfile, outputfile):
-
+    '''
+    create, train and run the classifier
+    '''
     crf = create_crf_model(trainingfile)
     pred_labels, eval_data = run_crf_model(crf, evaluationfile)
     write_out_evaluation(eval_data, pred_labels, outputfile)
 
-def main(argv=None):
-
-    if argv is None:
-        argv = sys.argv
-        
-    trainingfile = argv[1]
-    evaluationfile = argv[2]
-    outputfile = argv[3]
+def main():
+    trainingfile = sys.argv[1]
+    evaluationfile = sys.argv[2]
+    outputfile = sys.argv[3]
     
     train_and_run_crf_model(trainingfile, evaluationfile, outputfile)
 
