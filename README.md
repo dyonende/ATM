@@ -1,7 +1,7 @@
 # Negation Cue Detection
 Authors: Anouk Twilt, Dyon van der Ende, Lois Rink
 
-##Requirements
+## Requirements
 the following Python 3.8.5 modules are required to run the scripts:
 - pandas 1.1.5
 - sys
@@ -12,7 +12,7 @@ the following Python 3.8.5 modules are required to run the scripts:
 - sklearn_crfsuite 0.3.6
 - stanza 1.1.1 (with processors tokenize, pos, lemma and depparse from the ewt package)
 
-##Files
+## Files
 These files are designed to work with the SEM-2012-SharedTask-CD-SCO data.
 It is advised to run them in order of appearance below.
 
